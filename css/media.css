@@ -1,0 +1,104 @@
+@media (max-width: 900px) {
+  h1 {
+    font-size: 500%;
+  }
+
+  h3 {
+    font-size: 120%;
+  }
+}
+
+/* ------------------------------------------ */
+
+@media (max-width: 740px) {
+  h1 {
+    font-size: 480%;
+  }
+
+  h2 {
+    font-size: 175%;
+  }
+
+  h3 {
+    font-size: 130%;
+  }
+  .comp,
+  .data,
+  .web,
+  .even,
+  .odd {
+    float: none;
+  }
+
+  .project-name {
+    padding-top: 0;
+    padding-bottom: 2%;
+  }
+  .skill-row,
+  .projects-row {
+    text-align: center;
+    width: 50%;
+  }
+  .skills-img {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    top: 32%;
+    left: 10%;
+  }
+
+  .projects-row .btn {
+    margin-bottom: 6%;
+    display: block;
+    text-align: center;
+  }
+  .project-img {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+
+  .projects .projects-row {
+    width: 80%;
+  }
+}
+
+/* ------------------------ */
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 385%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  h3 {
+    font-size: 120%;
+  }
+  p {
+    font-size: 95%;
+  }
+
+  .skill-row {
+    width: 90%;
+  }
+  .projects .projects-row {
+    width: 90%;
+  }
+  .project-img {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+
+  .bottom-cloud {
+    top: 32%;
+    left: 15%;
+  }
+}
